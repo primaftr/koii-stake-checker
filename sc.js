@@ -21,7 +21,7 @@ async function main() {
 
     // The public key you're interested in
 
-    const pubKeys = process.env.TASK_ID.split(",");
+    const pubKeys = process.env.PUBLIC_KEYS.split(",");
 
     pubKeys.forEach(async (publicKey) => {
       const availableBalance = accountData.available_balances
