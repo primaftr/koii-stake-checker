@@ -64,7 +64,7 @@ async function main() {
       }
 
       const embed = new EmbedBuilder()
-        .setTitle(`Updatebalace`)
+        .setTitle(`Update balance`)
         .setColor(16711680 /* red https://www.spycolor.com/ff0000 */)
         .addFields(fields)
         .setFooter({ text: "DONE" });
